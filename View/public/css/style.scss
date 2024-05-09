@@ -1,0 +1,76 @@
+@import "color.scss";
+@import "mixin.scss";
+@font-face {
+    font-family:Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+ 
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Lato;
+}
+#error{
+    margin:20px 0px;
+    width: 100%;
+    background-color: $redLight;
+    color:$red;
+    box-sizing: border-box;
+    border:2px solid $redBorder;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding:5px;
+    ul{
+        list-style-position: inside;
+        li{
+            margin-top:4px;
+        }
+    }
+}
+body{
+    background-color: $gray;;
+}
+html{
+    font-size: 16px;
+}
+#registration, #loginwrap{
+    h1{
+        font-size: 1.8rem;
+        margin:20px auto;
+        text-align: center;
+    }
+    form{
+        width:20%;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        label{
+            margin-top: 12px;
+
+        }
+        input{
+            text-align: center;
+            margin-top: 6px;
+            border-radius: 20px;
+            padding:5px;
+            box-sizing: border-box;
+            border:1px solid gray;
+            width:100%;
+
+        }
+        #holdButtons{
+            a{
+                display: block;
+                text-align: center;
+                margin-top: 10px;
+            }
+            input{
+                margin-top: 10px;
+                @include btn();
+            }
+        }
+    }
+}

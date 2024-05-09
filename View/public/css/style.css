@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Regular.ttf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Lato;
+}
+
+#error {
+  margin: 20px 0px;
+  width: 100%;
+  background-color: #f8d7da;
+  color: #a80000;
+  box-sizing: border-box;
+  border: 2px solid #ffc4c9;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 5px;
+}
+#error ul {
+  list-style-position: inside;
+}
+#error ul li {
+  margin-top: 4px;
+}
+
+body {
+  background-color: #ededed;
+}
+
+html {
+  font-size: 16px;
+}
+
+#registration h1, #loginwrap h1 {
+  font-size: 1.8rem;
+  margin: 20px auto;
+  text-align: center;
+}
+#registration form, #loginwrap form {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#registration form label, #loginwrap form label {
+  margin-top: 12px;
+}
+#registration form input, #loginwrap form input {
+  text-align: center;
+  margin-top: 6px;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  width: 100%;
+}
+#registration form #holdButtons a, #loginwrap form #holdButtons a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+#registration form #holdButtons input, #loginwrap form #holdButtons input {
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 3px solid #0a5c01;
+  color: #0a5c01;
+  padding: 2px 6px;
+  font-size: 1.2rem;
+  background-color: transparent;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

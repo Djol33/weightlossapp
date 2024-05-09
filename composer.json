@@ -1,0 +1,23 @@
+{
+  "name": "my/app",
+  "description": "Description of your project",
+  "require": {
+    "cboden/ratchet": "^0.4",
+    "thiagoalessio/tesseract_ocr": "^2.13",
+    "ext-pdo": "*",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "MyApp\\": "src",
+      "Route\\": "Route",
+      "Model\\":"Model",
+      "Logger\\": "Logger",
+      "Controller\\": "Controller",
+      "View\\": "View",
+      "GeneralFunction\\": "GeneralFunctions"
+
+
+    }
+  }
+}
